@@ -1,0 +1,51 @@
+{
+  "id": "hunters-of-undeath-vtt",
+  "title": "Hunters of Undeath VTT",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "14"
+  },
+  "description": "<p>The FoundryVTT companion for the Pathfinder Infinite title Hunters of Undeath by GrimUlkoves. Please contact Grim if there are any issues with the module. Happy hunting!</p>",
+  "authors": [
+    {
+      "name": "Jonathon McGhee",
+      "email": "grimulkoves.dm@gmail.com",
+      "discord": "grimulkoves",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "hunters-of-undeath",
+      "label": "Hunters of Undeath",
+      "path": "packs/hunters-of-undeath",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+    "flags": {
+    "hunters-of-undeath-vtt": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "spellcore": {
+            "label": "Dawnbound",
+            "description": "Your Dawnwalker abilities rely on using your cosmic ember as a focus. Any Dawnwalker feat that has the Dawnbound trait has the requirement that your cosmic ember is on your person."
+          }
+        }
+      }
+    }
+  },
+    "url": "https://github.com/GrimUlkoves/HuntersofUndeath",
+  "manifest": "https://raw.githubusercontent.com/GrimUlkoves/HuntersofUndeath/master/module.json",
+  "download": "https://github.com/GrimUlkoves/HuntersofUndeath/releases/download/1.0.0/VTT.zip"
+}

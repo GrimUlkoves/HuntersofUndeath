@@ -37,7 +37,7 @@
     "hunters-of-undeath-vtt": {
       "pf2e-homebrew": {
         "featTraits": {
-          "spellcore": {
+          "dawnbound": {
             "label": "Dawnbound",
             "description": "Your Dawnwalker abilities rely on using your cosmic ember as a focus. Any Dawnwalker feat that has the Dawnbound trait has the requirement that your cosmic ember is on your person."
           }

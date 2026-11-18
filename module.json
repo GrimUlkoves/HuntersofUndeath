@@ -4,7 +4,7 @@
   "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13",
+    "verified": "14",
     "maximum": "14"
   },
   "description": "<p>The FoundryVTT companion for the Pathfinder Infinite title Hunters of Undeath by GrimUlkoves. Please contact Grim if there are any issues with the module. Happy hunting!</p>",

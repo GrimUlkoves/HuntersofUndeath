@@ -1,7 +1,7 @@
 {
   "id": "hunters-of-undeath-vtt",
   "title": "Hunters of Undeath VTT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13",
@@ -17,7 +17,16 @@
     }
   ],
   "flags": {
-    "canUpload": true
+    "hunters-of-undeath-vtt": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "spellcore": {
+            "label": "Dawnbound",
+            "description": "Your Dawnwalker abilities rely on using your cosmic ember as a focus. Any Dawnwalker feat that has the Dawnbound trait has the requirement that your cosmic ember is on your person."
+          }
+        }
+      }
+    }
   },
   "packs": [
     {
@@ -33,19 +42,7 @@
       "flags": {}
     }
   ],
-    "flags": {
-    "hunters-of-undeath-vtt": {
-      "pf2e-homebrew": {
-        "featTraits": {
-          "spellcore": {
-            "label": "Dawnbound",
-            "description": "Your Dawnwalker abilities rely on using your cosmic ember as a focus. Any Dawnwalker feat that has the Dawnbound trait has the requirement that your cosmic ember is on your person."
-          }
-        }
-      }
-    }
-  },
-    "url": "https://github.com/GrimUlkoves/HuntersofUndeath",
+  "url": "https://github.com/GrimUlkoves/HuntersofUndeath",
   "manifest": "https://raw.githubusercontent.com/GrimUlkoves/HuntersofUndeath/master/module.json",
-  "download": "https://github.com/GrimUlkoves/HuntersofUndeath/releases/download/1.0.0/VTT.zip"
+  "download": "https://github.com/GrimUlkoves/HuntersofUndeath/releases/download/1.0.0/HoUnd_VTT_1.1.zip"
 }
